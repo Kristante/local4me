@@ -2,12 +2,13 @@ package main
 
 import (
 	"fmt"
-	"github.com/jackc/pgx/v4/pgxpool"
-	"github.com/joho/godotenv"
-	tele "gopkg.in/telebot.v4"
 	"log"
 	"os"
 	"time"
+
+	"github.com/jackc/pgx/v4/pgxpool"
+	"github.com/joho/godotenv"
+	tele "gopkg.in/telebot.v4"
 )
 
 const chatID = 1062210573
